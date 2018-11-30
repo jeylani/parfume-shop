@@ -15,6 +15,7 @@ public class MoveObject : MonoBehaviour
     public GameObject Object1;
     public GameObject UICamera;
     public GameObject ObjectCamera;
+    bool zoom;
 
     void Start()
     {
@@ -25,23 +26,41 @@ public class MoveObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // transform.LookAt(player);
-       
-        if (Vector3.Distance(transform.position, player.position) > stoppingDistance)
+        // transform.LookAt(player);
+        if (Input.GetMouseButtonDown(0))
         {
-            transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if(Physics.Raycast(ray,out hit))
+            {
+                BoxCollider bc = hit.collider as BoxCollider;
+                if (bc != null)
+                {
+                    Debug.Log("touché");
+                    zoom = true;
+                }
+            }
+
         }
-        else if (Vector3.Distance(transform.position, player.position) <= stoppingDistance)
+        if (zoom)
         {
-            Debug.Log("ok");
-            Object1.GetComponent<MoveObject>().enabled = false;
-            ObjectCamera.SetActive(false);
-            UICamera.SetActive(true);
+            if (Vector3.Distance(transform.position, player.position) > stoppingDistance)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            }
+            else if (Vector3.Distance(transform.position, player.position) <= stoppingDistance)
+            {
+                Debug.Log("ok");
+                Object1.GetComponent<MoveObject>().enabled = false;
+                ObjectCamera.SetActive(false);
+                UICamera.SetActive(true);
+            }
+            else if (Vector3.Distance(transform.position, player.position) < stoppingDistance && Vector3.Distance(transform.position, player.position) > nearDistance)
+            {
+                transform.position = this.transform.position;
+            }
         }
-        else if (Vector3.Distance(transform.position, player.position) < stoppingDistance && Vector3.Distance(transform.position, player.position) > nearDistance)
-        {
-            transform.position = this.transform.position;
-        }
+        
       
     }
 
