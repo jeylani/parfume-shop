@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: f8829002aa80f7d4e94341862c07eea6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: buffet
+    100002: buffet 1
+    100004: buffet 2
+    100006: buffet1
+    100008: buffet1 1
+    100010: buffet2
+    100012: buffet2 1
+    100014: buffet2 2
+    100016: buffet2 3
+    100018: buffet3
+    100020: buffet3 1
+    100022: buffet3 2
+    100024: buffet3 3
+    100026: buffet4
+    100028: buffet4 1
+    100030: buffet4 2
+    100032: buffet4 3
+    100034: buffet5
+    100036: buffet5 1
+    100038: buffet5 2
+    100040: buffet6
+    100042: buffet6 1
+    100044: buffet6 2
+    100046: buffet7
+    100048: buffet7 1
+    100050: buffet7 2
+    100052: buffet8
+    100054: buffet9
+    100056: buffet_cadre
+    100058: buffet_cadre 1
+    100060: buffet_cadre 2
+    100062: buffet_cadre 3
+    100064: //RootNode
+    100066: group1
+    100068: group1 1
+    100070: group1 2
+    100072: group1 3
+    100074: group2
+    100076: group2 1
+    100078: group2 2
+    100080: group2 3
+    100082: polySurface2
+    100084: polySurface2 1
+    100086: polySurface2 2
+    100088: polySurface2 3
+    100090: polySurface3
+    100092: polySurface3 1
+    100094: polySurface3 2
+    100096: polySurface3 3
+    100098: polySurface44
+    100100: polySurface44 1
+    100102: polySurface44 2
+    100104: polySurface44 3
+    100106: vitre1
+    100108: vitre1 1
+    100110: vitre1 2
+    100112: vitre1 3
+    100114: vitre1b
+    100116: vitre1b 1
+    100118: vitre2
+    100120: vitre2 1
+    100122: vitre2 2
+    100124: vitre2b
+    100126: vitre2b 1
+    100128: vitre2b 2
+    100130: vitre3
+    100132: vitre3 1
+    100134: vitre3 2
+    100136: vitre3 3
+    100138: vitre3b
+    100140: vitre3b 1
+    100142: vitre3b 2
+    100144: vitre3b 3
+    100146: vitre4
+    100148: vitre4 1
+    100150: vitre4 2
+    100152: vitre4 3
+    100154: vitre4b
+    100156: vitre4b 1
+    100158: vitre4b 2
+    100160: vitre4b 3
+    100162: vitre5
+    100164: vitre5 1
+    100166: vitre5 2
+    100168: vitre5 3
+    100170: vitre5b
+    100172: vitre5b 1
+    100174: vitre5b 2
+    100176: vitre6
+    100178: vitre6 1
+    100180: vitre6 2
+    100182: vitre6b
+    100184: vitre6b 1
+    100186: vitre6b 2
+    100188: vitre7
+    100190: vitre7 1
+    100192: vitre7b
+    100194: vitre7b 1
+    100196: vitre7b 2
+    100198: vitre8
+    100200: vitre8 1
+    100202: vitre8 2
+    100204: vitre8b
+    100206: vitre8b 1
+    100208: vitre8b 2
+    100210: vitre8b 3
+    100212: vitre9b
+    100214: vitre9b 1
+    100216: vitre9b 2
+    100218: vitre9b 3
+    100220: vitreb
+    100222: vitreb 1
+    100224: vitreb 2
+    100226: vitreb 3
+    400000: buffet
+    400002: buffet 1
+    400004: buffet 2
+    400006: buffet1
+    400008: buffet1 1
+    400010: buffet2
+    400012: buffet2 1
+    400014: buffet2 2
+    400016: buffet2 3
+    400018: buffet3
+    400020: buffet3 1
+    400022: buffet3 2
+    400024: buffet3 3
+    400026: buffet4
+    400028: buffet4 1
+    400030: buffet4 2
+    400032: buffet4 3
+    400034: buffet5
+    400036: buffet5 1
+    400038: buffet5 2
+    400040: buffet6
+    400042: buffet6 1
+    400044: buffet6 2
+    400046: buffet7
+    400048: buffet7 1
+    400050: buffet7 2
+    400052: buffet8
+    400054: buffet9
+    400056: buffet_cadre
+    400058: buffet_cadre 1
+    400060: buffet_cadre 2
+    400062: buffet_cadre 3
+    400064: //RootNode
+    400066: group1
+    400068: group1 1
+    400070: group1 2
+    400072: group1 3
+    400074: group2
+    400076: group2 1
+    400078: group2 2
+    400080: group2 3
+    400082: polySurface2
+    400084: polySurface2 1
+    400086: polySurface2 2
+    400088: polySurface2 3
+    400090: polySurface3
+    400092: polySurface3 1
+    400094: polySurface3 2
+    400096: polySurface3 3
+    400098: polySurface44
+    400100: polySurface44 1
+    400102: polySurface44 2
+    400104: polySurface44 3
+    400106: vitre1
+    400108: vitre1 1
+    400110: vitre1 2
+    400112: vitre1 3
+    400114: vitre1b
+    400116: vitre1b 1
+    400118: vitre2
+    400120: vitre2 1
+    400122: vitre2 2
+    400124: vitre2b
+    400126: vitre2b 1
+    400128: vitre2b 2
+    400130: vitre3
+    400132: vitre3 1
+    400134: vitre3 2
+    400136: vitre3 3
+    400138: vitre3b
+    400140: vitre3b 1
+    400142: vitre3b 2
+    400144: vitre3b 3
+    400146: vitre4
+    400148: vitre4 1
+    400150: vitre4 2
+    400152: vitre4 3
+    400154: vitre4b
+    400156: vitre4b 1
+    400158: vitre4b 2
+    400160: vitre4b 3
+    400162: vitre5
+    400164: vitre5 1
+    400166: vitre5 2
+    400168: vitre5 3
+    400170: vitre5b
+    400172: vitre5b 1
+    400174: vitre5b 2
+    400176: vitre6
+    400178: vitre6 1
+    400180: vitre6 2
+    400182: vitre6b
+    400184: vitre6b 1
+    400186: vitre6b 2
+    400188: vitre7
+    400190: vitre7 1
+    400192: vitre7b
+    400194: vitre7b 1
+    400196: vitre7b 2
+    400198: vitre8
+    400200: vitre8 1
+    400202: vitre8 2
+    400204: vitre8b
+    400206: vitre8b 1
+    400208: vitre8b 2
+    400210: vitre8b 3
+    400212: vitre9b
+    400214: vitre9b 1
+    400216: vitre9b 2
+    400218: vitre9b 3
+    400220: vitreb
+    400222: vitreb 1
+    400224: vitreb 2
+    400226: vitreb 3
+    2100000: blinn2
+    2300000: buffet 1
+    2300002: buffet 2
+    2300004: buffet1
+    2300006: buffet1 1
+    2300008: buffet2 1
+    2300010: buffet2 2
+    2300012: buffet2 3
+    2300014: buffet3
+    2300016: buffet3 1
+    2300018: buffet3 2
+    2300020: buffet3 3
+    2300022: buffet4
+    2300024: buffet4 1
+    2300026: buffet4 2
+    2300028: buffet4 3
+    2300030: buffet5
+    2300032: buffet5 1
+    2300034: buffet5 2
+    2300036: buffet6
+    2300038: buffet6 1
+    2300040: buffet6 2
+    2300042: buffet7
+    2300044: buffet7 1
+    2300046: buffet7 2
+    2300048: polySurface2
+    2300050: polySurface2 1
+    2300052: polySurface2 2
+    2300054: polySurface2 3
+    2300056: polySurface3
+    2300058: polySurface3 1
+    2300060: polySurface3 2
+    2300062: polySurface3 3
+    2300064: polySurface44
+    2300066: polySurface44 1
+    2300068: polySurface44 2
+    2300070: polySurface44 3
+    2300072: vitre1
+    2300074: vitre1 1
+    2300076: vitre1 2
+    2300078: vitre1 3
+    2300080: vitre1b
+    2300082: vitre1b 1
+    2300084: vitre2
+    2300086: vitre2 1
+    2300088: vitre2 2
+    2300090: vitre2b
+    2300092: vitre2b 1
+    2300094: vitre2b 2
+    2300096: vitre3
+    2300098: vitre3 1
+    2300100: vitre3 2
+    2300102: vitre3 3
+    2300104: vitre3b
+    2300106: vitre3b 1
+    2300108: vitre3b 2
+    2300110: vitre3b 3
+    2300112: vitre4
+    2300114: vitre4 1
+    2300116: vitre4 2
+    2300118: vitre4 3
+    2300120: vitre4b
+    2300122: vitre4b 1
+    2300124: vitre4b 2
+    2300126: vitre4b 3
+    2300128: vitre5
+    2300130: vitre5 1
+    2300132: vitre5 2
+    2300134: vitre5 3
+    2300136: vitre5b
+    2300138: vitre5b 1
+    2300140: vitre5b 2
+    2300142: vitre6
+    2300144: vitre6 1
+    2300146: vitre6 2
+    2300148: vitre6b
+    2300150: vitre6b 1
+    2300152: vitre6b 2
+    2300154: vitre7
+    2300156: vitre7 1
+    2300158: vitre7b
+    2300160: vitre7b 1
+    2300162: vitre7b 2
+    2300164: vitre8
+    2300166: vitre8 1
+    2300168: vitre8 2
+    2300170: vitre8b
+    2300172: vitre8b 1
+    2300174: vitre8b 2
+    2300176: vitre8b 3
+    2300178: vitre9b
+    2300180: vitre9b 1
+    2300182: vitre9b 2
+    2300184: vitre9b 3
+    3300000: buffet 1
+    3300002: buffet 2
+    3300004: buffet1
+    3300006: buffet1 1
+    3300008: buffet2 1
+    3300010: buffet2 2
+    3300012: buffet2 3
+    3300014: buffet3
+    3300016: buffet3 1
+    3300018: buffet3 2
+    3300020: buffet3 3
+    3300022: buffet4
+    3300024: buffet4 1
+    3300026: buffet4 2
+    3300028: buffet4 3
+    3300030: buffet5
+    3300032: buffet5 1
+    3300034: buffet5 2
+    3300036: buffet6
+    3300038: buffet6 1
+    3300040: buffet6 2
+    3300042: buffet7
+    3300044: buffet7 1
+    3300046: buffet7 2
+    3300048: polySurface2
+    3300050: polySurface2 1
+    3300052: polySurface2 2
+    3300054: polySurface2 3
+    3300056: polySurface3
+    3300058: polySurface3 1
+    3300060: polySurface3 2
+    3300062: polySurface3 3
+    3300064: polySurface44
+    3300066: polySurface44 1
+    3300068: polySurface44 2
+    3300070: polySurface44 3
+    3300072: vitre1
+    3300074: vitre1 1
+    3300076: vitre1 2
+    3300078: vitre1 3
+    3300080: vitre1b
+    3300082: vitre1b 1
+    3300084: vitre2
+    3300086: vitre2 1
+    3300088: vitre2 2
+    3300090: vitre2b
+    3300092: vitre2b 1
+    3300094: vitre2b 2
+    3300096: vitre3
+    3300098: vitre3 1
+    3300100: vitre3 2
+    3300102: vitre3 3
+    3300104: vitre3b
+    3300106: vitre3b 1
+    3300108: vitre3b 2
+    3300110: vitre3b 3
+    3300112: vitre4
+    3300114: vitre4 1
+    3300116: vitre4 2
+    3300118: vitre4 3
+    3300120: vitre4b
+    3300122: vitre4b 1
+    3300124: vitre4b 2
+    3300126: vitre4b 3
+    3300128: vitre5
+    3300130: vitre5 1
+    3300132: vitre5 2
+    3300134: vitre5 3
+    3300136: vitre5b
+    3300138: vitre5b 1
+    3300140: vitre5b 2
+    3300142: vitre6
+    3300144: vitre6 1
+    3300146: vitre6 2
+    3300148: vitre6b
+    3300150: vitre6b 1
+    3300152: vitre6b 2
+    3300154: vitre7
+    3300156: vitre7 1
+    3300158: vitre7b
+    3300160: vitre7b 1
+    3300162: vitre7b 2
+    3300164: vitre8
+    3300166: vitre8 1
+    3300168: vitre8 2
+    3300170: vitre8b
+    3300172: vitre8b 1
+    3300174: vitre8b 2
+    3300176: vitre8b 3
+    3300178: vitre9b
+    3300180: vitre9b 1
+    3300182: vitre9b 2
+    3300184: vitre9b 3
+    4300000: polySurface2
+    4300002: polySurface3
+    4300004: polySurface44
+    4300006: buffet3
+    4300008: buffet4
+    4300010: buffet5
+    4300012: buffet6
+    4300014: vitre1
+    4300016: vitre2
+    4300018: vitre3
+    4300020: vitre4
+    4300022: vitre5
+    4300024: vitre6
+    4300026: vitre3b
+    4300028: vitre4b
+    4300030: vitre5b
+    4300032: vitre6b
+    4300034: vitre7b
+    4300036: vitre8b
+    4300038: vitre9b
+    4300040: polySurface2
+    4300042: polySurface3
+    4300044: polySurface44
+    4300046: buffet1
+    4300048: buffet2
+    4300050: buffet3
+    4300052: buffet4
+    4300054: buffet5
+    4300056: buffet6
+    4300058: buffet7
+    4300060: buffet
+    4300062: vitre1
+    4300064: vitre2
+    4300066: vitre3
+    4300068: vitre4
+    4300070: vitre5
+    4300072: vitre6
+    4300074: vitre7
+    4300076: vitre8
+    4300078: vitre1b
+    4300080: vitre2b
+    4300082: vitre3b
+    4300084: vitre4b
+    4300086: vitre5b
+    4300088: vitre6b
+    4300090: vitre7b
+    4300092: vitre8b
+    4300094: vitre9b
+    4300096: polySurface2
+    4300098: polySurface3
+    4300100: polySurface44
+    4300102: buffet1
+    4300104: buffet2
+    4300106: buffet3
+    4300108: buffet4
+    4300110: buffet5
+    4300112: buffet6
+    4300114: buffet7
+    4300116: buffet
+    4300118: vitre1
+    4300120: vitre2
+    4300122: vitre3
+    4300124: vitre4
+    4300126: vitre5
+    4300128: vitre6
+    4300130: vitre7
+    4300132: vitre8
+    4300134: vitre1b
+    4300136: vitre2b
+    4300138: vitre3b
+    4300140: vitre4b
+    4300142: vitre5b
+    4300144: vitre6b
+    4300146: vitre7b
+    4300148: vitre8b
+    4300150: vitre9b
+    4300152: polySurface2
+    4300154: polySurface3
+    4300156: polySurface44
+    4300158: buffet2
+    4300160: buffet3
+    4300162: buffet4
+    4300164: buffet7
+    4300166: vitre1
+    4300168: vitre3
+    4300170: vitre4
+    4300172: vitre5
+    4300174: vitre8
+    4300176: vitre2b
+    4300178: vitre3b
+    4300180: vitre4b
+    4300182: vitre8b
+    4300184: vitre9b
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
